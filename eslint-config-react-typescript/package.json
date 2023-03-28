@@ -1,5 +1,5 @@
 {
-  "name": "@cretesuite/eslint-config-react-typescript",
+  "name": "eslint-config-react-typescript",
   "version": "1.0.0",
   "main": "index.js",
   "license": "UNLICENSED",
