@@ -1456,36 +1456,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cretesuite/eslint-config-react-typescript@workspace:eslint-config-react-typescript":
-  version: 0.0.0-use.local
-  resolution: "@cretesuite/eslint-config-react-typescript@workspace:eslint-config-react-typescript"
-  dependencies:
-    eslint-config-airbnb: ">=19.0.4"
-    eslint-config-react-app: ">=7.0.1"
-    eslint-config-typescript: 1.0.0
-    eslint-plugin-jsx-a11y: ">=6.5.1"
-    eslint-plugin-react: ">=7.27.1"
-    eslint-plugin-react-hooks: ">=4.6.0"
-  peerDependencies:
-    eslint: ">=8.0.0"
-  languageName: unknown
-  linkType: soft
-
-"@cretesuite/eslint-config-typescript@workspace:eslint-config-typescript":
-  version: 0.0.0-use.local
-  resolution: "@cretesuite/eslint-config-typescript@workspace:eslint-config-typescript"
-  dependencies:
-    "@typescript-eslint/eslint-plugin": ">=5.13.0"
-    "@typescript-eslint/parser": ">=5.0.0"
-    eslint-config-airbnb-base: ">=15.0.0"
-    eslint-config-airbnb-typescript: ">=17.0.0"
-    eslint-plugin-import: ">=2.25.2"
-    eslint-plugin-unused-imports: ">=2.0.0"
-  peerDependencies:
-    eslint: ">=8.0.0"
-  languageName: unknown
-  linkType: soft
-
 "@cretesuite/eslint-config@workspace:.":
   version: 0.0.0-use.local
   resolution: "@cretesuite/eslint-config@workspace:."
@@ -2370,21 +2340,35 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-typescript@npm:1.0.0":
-  version: 1.0.0
-  resolution: "eslint-config-typescript@npm:1.0.0"
+"eslint-config-react-typescript@workspace:eslint-config-react-typescript":
+  version: 0.0.0-use.local
+  resolution: "eslint-config-react-typescript@workspace:eslint-config-react-typescript"
+  dependencies:
+    eslint-config-airbnb: ">=19.0.4"
+    eslint-config-react-app: ">=7.0.1"
+    eslint-config-typescript: 1.0.0
+    eslint-plugin-jsx-a11y: ">=6.5.1"
+    eslint-plugin-react: ">=7.27.1"
+    eslint-plugin-react-hooks: ">=4.6.0"
   peerDependencies:
-    eslint: "*"
-    eslint-config-prettier: "*"
-    eslint-plugin-prettier: "*"
-    eslint-plugin-react: "*"
-    eslint-plugin-typescript: "*"
-    prettier: "*"
-    typescript: "*"
-    typescript-eslint-parser: "*"
-  checksum: 45282d9ec6110341b7c6cacb9ffb37ef1da0cd1bcc6bab860207e682f6cabc912a5bc616e8387bc7eb886f78da01a03393b5f148f008da35ef74e0750ba7a85c
-  languageName: node
-  linkType: hard
+    eslint: ">=8.0.0"
+  languageName: unknown
+  linkType: soft
+
+"eslint-config-typescript@1.0.0, eslint-config-typescript@workspace:eslint-config-typescript":
+  version: 0.0.0-use.local
+  resolution: "eslint-config-typescript@workspace:eslint-config-typescript"
+  dependencies:
+    "@typescript-eslint/eslint-plugin": ">=5.13.0"
+    "@typescript-eslint/parser": ">=5.0.0"
+    eslint-config-airbnb-base: ">=15.0.0"
+    eslint-config-airbnb-typescript: ">=17.0.0"
+    eslint-plugin-import: ">=2.25.2"
+    eslint-plugin-unused-imports: ">=2.0.0"
+  peerDependencies:
+    eslint: ">=8.0.0"
+  languageName: unknown
+  linkType: soft
 
 "eslint-import-resolver-node@npm:^0.3.7":
   version: 0.3.7
