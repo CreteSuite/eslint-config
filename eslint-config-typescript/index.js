@@ -12,6 +12,9 @@ module.exports = {
   ],
   rules: {
     // core
+    "@typescript-eslint/no-empty-interface": ['warn', {
+      allowSingleExtends: true
+    }],
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-unused-expressions': ['error', {
       allowShortCircuit: false,
