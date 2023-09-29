@@ -6,5 +6,8 @@
     "eslint-config-react-typescript",
     "eslint-config-typescript"
   ],
+  "scripts": {
+    "postinstall": "npm i --workspaces"
+  },
   "version": "1.0.0"
 }
