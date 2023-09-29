@@ -3,21 +3,23 @@
   "license": "UNLICENSED",
   "private": true,
   "peerDependencies": {
-    "eslint": ">=8.0.0"
+    "eslint": "^8.50.0"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": ">=5.13.0",
-    "@typescript-eslint/parser": ">=5.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "eslint-config-airbnb": ">=19.0.4",
     "eslint-config-airbnb-base": ">=15.0.0",
     "eslint-config-airbnb-typescript": ">=17.0.0",
-    "eslint-plugin-import": ">=2.25.2",
-    "eslint-plugin-unused-imports": ">=2.0.0",
-    "eslint-config-airbnb": ">=19.0.4",
     "eslint-config-react-app": ">=7.0.1",
     "eslint-config-typescript": "1.0.0",
+    "eslint-plugin-import": ">=2.25.2",
     "eslint-plugin-jsx-a11y": ">=6.5.1",
     "eslint-plugin-react": ">=7.27.1",
-    "eslint-plugin-react-hooks": ">=4.6.0"
+    "eslint-plugin-react-hooks": ">=4.6.0",
+    "eslint-plugin-unused-imports": ">=2.0.0",
+    "typescript": "^5.2.2"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "packageManager": "yarn@3.6.3"
 }
