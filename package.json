@@ -20,6 +20,6 @@
     "eslint-plugin-react-hooks": ">=4.6.0",
     "eslint-plugin-unused-imports": ">=2.0.0"
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "packageManager": "yarn@3.6.3"
 }
