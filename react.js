@@ -10,7 +10,7 @@ module.exports = {
     'airbnb/rules/react',
     'airbnb/hooks',
     'plugin:react/jsx-runtime',
-    '@cretesuite/eslint-config-typescript',
+    '@cretesuite/eslint-config',
   ],
   settings: {
     'import/resolver': {
